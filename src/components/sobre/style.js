@@ -9,9 +9,9 @@ export const Container = styled.div`
   margin: 0 5%;
   height: 80vh;
 
-  & {
+  /* & {
     border: 1px solid red;
-  }
+  } */
 
   & > img {
     width: 30%;

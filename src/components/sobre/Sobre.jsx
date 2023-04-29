@@ -3,7 +3,6 @@ import me from "../../assets/img/me.svg";
 
 const Sobre = () => {
   return (
-    // <div style={{ border: "1px solid red" }}>
     <Container>
       <img src={me} alt="foto" />
       <div>
@@ -32,7 +31,6 @@ const Sobre = () => {
         </p>
       </div>
     </Container>
-    // </div>
   );
 };
 
