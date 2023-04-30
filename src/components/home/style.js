@@ -5,8 +5,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  margin: 38px 2%;
-  height: 65vh;
+  height: 82vh;
 `;
 
 export const Image = styled.div`
@@ -16,7 +15,7 @@ export const Image = styled.div`
   justify-content: center;
 
   & > img {
-    width: 70%;
+    width: 95%;
   }
 `;
 
@@ -84,6 +83,7 @@ export const Contato = styled.button`
   border: 1px solid rgba(123, 74, 226, 0.5);
   border-radius: 16px;
   color: rgba(123, 74, 226, 0.5);
+  background-color: #090e16;
 
   cursor: pointer;
 

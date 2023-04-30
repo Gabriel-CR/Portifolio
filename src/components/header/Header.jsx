@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../assets/img/logo.svg";
-import { Container, Navigate, Image } from "./style";
+import { Container, Navigate } from "./style";
 
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <Container>
       <Link to="/">
-        <Image src={Logo} alt="logo" />
+        <img src={Logo} alt="logo" />
       </Link>
       <Navigate>
         <Link to="/">Home</Link>
