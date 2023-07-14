@@ -5,17 +5,18 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 100px;
   height: 82vh;
+`;
 
-  & > div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+export const Title = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
 
-  & > div > h2 {
+  & > h2 {
     font-weight: 700;
     font-size: 20px;
     color: #7b4ae2;
@@ -27,7 +28,7 @@ export const Container = styled.div`
     margin-bottom: 24px;
   }
 
-  & > div > h1 {
+  & > h1 {
     font-weight: 800;
     font-size: 48px;
     line-height: 56px;
@@ -43,7 +44,6 @@ export const Wpp = styled.a`
   grid-area: wpp;
 
   gap: 8px;
-  /* width: 15%; */
   height: 44px;
   padding: 14px;
 
@@ -64,7 +64,8 @@ export const Email = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1vh;
+  justify-content: center;
+  gap: 2vh;
   grid-area: email;
 
   & > p {
@@ -101,20 +102,16 @@ export const Phone = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: fit-content;
   gap: 1vh;
   grid-area: phone;
 `;
 
 export const Info = styled.div`
   display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-areas:
+  grid-template:
     "wpp email"
-    "phone phone";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 2vw;
-  width: 100%;
-  margin-bottom: 24px;
+    "phone email";
+  gap: 10%;
+  width: 40%;
 `;

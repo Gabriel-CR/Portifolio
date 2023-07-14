@@ -1,4 +1,4 @@
-import { Container, Wpp, Email, Phone, Info } from "./style";
+import { Container, Wpp, Email, Phone, Info, Title } from "./style";
 import { useState } from "react";
 
 import wpp from "../../assets/img/wpp.svg";
@@ -19,10 +19,10 @@ const Contato = () => {
 
   return (
     <Container>
-      <div>
+      <Title>
         <h2>📬 Contatos</h2>
         <h1>Vamos Conversar!</h1>
-      </div>
+      </Title>
       <Info>
         <Wpp
           href="https://wa.me/5588992472769?text=Olá,%20entro%20em%20contato%20através%20do%20seu%20site."
