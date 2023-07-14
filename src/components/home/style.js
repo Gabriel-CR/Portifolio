@@ -16,6 +16,7 @@ export const Image = styled.div`
 
   & > img {
     width: 95%;
+    height: 95%;
   }
 `;
 
@@ -69,7 +70,7 @@ export const Info = styled.div`
   }
 `;
 
-export const Contato = styled.button`
+export const Contato = styled.a`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -86,6 +87,7 @@ export const Contato = styled.button`
   background-color: #090e16;
 
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     border: 1px solid rgba(123, 74, 226, 1);

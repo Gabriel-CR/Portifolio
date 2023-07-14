@@ -47,3 +47,12 @@ export const Container = styled.div`
     gap: 5px;
   }
 `;
+
+export const Abount = styled.div`
+  * {
+    /* border: 1px solid red; */
+  }
+  & > p {
+    margin-bottom: 0.7vh;
+  }
+`;
