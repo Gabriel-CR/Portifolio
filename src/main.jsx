@@ -10,6 +10,7 @@ import Portifolio from "../src/components/portifolio/Portifolio";
 import Skills from "../src/components/skills/Skills";
 import Carreira from "../src/components/carreira/Carreira";
 import Contato from "../src/components/contato/Contato";
+import NotFound from "../src/components/not_found/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      // configurar rota para not found
+      {
+        path: "*",
+        element: <NotFound />,
       },
       {
         path: "/sobre",
