@@ -4,7 +4,7 @@ import { Images, Title, Container, ContainerImg } from "./styles";
 
 import css3 from "../../assets/img/img_skill/css3.svg";
 import git from "../../assets/img/img_skill/git.svg";
-import github from "../../assets/img/img_skill/github.svg";
+import java from "../../assets/img/img_skill/java.svg";
 import html5 from "../../assets/img/img_skill/html5.svg";
 import javascript from "../../assets/img/img_skill/js.svg";
 import postman from "../../assets/img/img_skill/postman.svg";
@@ -14,6 +14,8 @@ import postgresql from "../../assets/img/img_skill/postgresql.svg";
 import mongodb from "../../assets/img/img_skill/mongodb.svg";
 import vuejs from "../../assets/img/img_skill/vue_js.svg";
 import spring_boot from "../../assets/img/img_skill/spring_boot.svg";
+import pandas from "../../assets/img/img_skill/pandas.svg";
+import typescript from "../../assets/img/img_skill/typescript.svg";
 
 const images = [
   {
@@ -47,14 +49,14 @@ const images = [
     description: "Git",
   },
   {
-    img: github,
-    alt: "GitHub",
-    description: "GitHub",
+    img: java,
+    alt: "Java",
+    description: "Java",
   },
   {
-    img: postman,
-    alt: "Postman",
-    description: "Postman",
+    img: spring_boot,
+    alt: "Spring Boot",
+    description: "Spring Boot",
   },
   {
     img: postgresql,
@@ -65,19 +67,29 @@ const images = [
 
 const images_outras = [
   {
-    img: mongodb,
-    alt: "MongoDB",
-    description: "MongoDB",
-  },
-  {
     img: vuejs,
     alt: "VueJS",
     description: "VueJS",
   },
   {
-    img: spring_boot,
-    alt: "Spring Boot",
-    description: "Spring Boot",
+    img: typescript,
+    alt: "TypeScript",
+    description: "TypeScript",
+  },
+  {
+    img: mongodb,
+    alt: "MongoDB",
+    description: "MongoDB",
+  },
+  {
+    img: postman,
+    alt: "Postman",
+    description: "Postman",
+  },
+  {
+    img: pandas,
+    alt: "Pandas",
+    description: "Pandas",
   },
 ];
 

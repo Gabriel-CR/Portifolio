@@ -5,12 +5,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  gap: 10vh;
-  height: 83vh;
-
-  & > * {
-    border: 1px solid red;
-  }
+  gap: 5vh;
+  height: 82vh;
 `;
 
 export const Img = styled.div`
@@ -19,9 +15,8 @@ export const Img = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  min-width: fit-content;
+  width: 20%;
   min-height: fit-content;
-  transition: 1s;
 
   & > img {
     height: 4rem;
@@ -39,13 +34,22 @@ export const Img = styled.div`
 `;
 
 export const ContainerImg = styled.div`
-  height: 150px;
+  height: 100%;
+  width: 90%;
+  text-align: center;
+
+  & > h3 {
+    color: rgba(255 255 255 / 0.5);
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
 `;
 
 export const Images = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
+  width: 100%;
   gap: 3rem;
 `;
 
@@ -72,5 +76,6 @@ export const Title = styled.div`
     font-weight: 800;
     font-size: 48px;
     line-height: 56px;
+    margin-bottom: 3rem;
   }
 `;
