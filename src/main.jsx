@@ -6,7 +6,7 @@ import "./index.css";
 
 import Home from "../src/components/home/Home";
 import Sobre from "../src/components/sobre/Sobre";
-import Portifolio from "../src/components/portifolio/Portifolio";
+import Portfolio from "./components/portfolio/Portfolio.jsx";
 import Skills from "../src/components/skills/Skills";
 import Carreira from "../src/components/carreira/Carreira";
 import Contato from "../src/components/contato/Contato";
@@ -30,8 +30,8 @@ const router = createBrowserRouter([
         element: <Sobre />,
       },
       {
-        path: "/portifolio",
-        element: <Portifolio />,
+        path: "/portfolio",
+        element: <Portfolio />,
       },
       {
         path: "/skills",

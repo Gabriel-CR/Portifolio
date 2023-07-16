@@ -63,7 +63,7 @@ const projetos = [
   {
     title: "Formulário com Marcador de Progresso",
     description:
-      "Formulário com validação de dados e marcador de progresso. O formulário valida a tamanho do nome, usa regex para validar o email e habilita o botão de submit quando todos os campos estiverem preenchidos.",
+      "Formulário com validação de dados e marcador de progresso. O formulário valida o tamanho do nome, usa regex para validar o email e habilita o botão de submit quando todos os campos estiverem preenchidos.",
     tecnologies: ["ReactJS", "Form", "Validação", "Regex"],
     img: progresso_formulario,
     code: [
@@ -79,7 +79,7 @@ const Portifolio = () => {
   return (
     <div>
       <Title>
-        <h2>🔗 Portifólio!</h2>
+        <h2>🔗 Portfólio!</h2>
         <h1>Trabalhos e Projetos</h1>
       </Title>
       <Projects>

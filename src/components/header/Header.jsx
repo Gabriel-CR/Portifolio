@@ -12,7 +12,7 @@ const Header = () => {
       <Navigate>
         <Link to="/">Home</Link>
         <Link to="/sobre">Sobre</Link>
-        <Link to="/portifolio">Portifólio</Link>
+        <Link to="/portfolio">Portfólio</Link>
         <Link to="/skills">Skills</Link>
         {/* <Link to="/carreira">Carreira</Link> */}
         <Link to="/contato">Contato</Link>

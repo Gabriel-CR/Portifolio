@@ -69,7 +69,7 @@ const images_outras = [
   {
     img: vuejs,
     alt: "VueJS",
-    description: "VueJS",
+    description: "Vue.js",
   },
   {
     img: typescript,
