@@ -21,7 +21,6 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      // configurar rota para not found
       {
         path: "*",
         element: <NotFound />,
@@ -38,10 +37,10 @@ const router = createBrowserRouter([
         path: "/skills",
         element: <Skills />,
       },
-      {
-        path: "/carreira",
-        element: <Carreira />,
-      },
+      // {
+      //   path: "/carreira",
+      //   element: <Carreira />,
+      // },
       {
         path: "/contato",
         element: <Contato />,
