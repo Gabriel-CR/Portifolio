@@ -1,69 +1,75 @@
 import { Title, Projects } from "./styles";
 import Card from "./Card";
 
+import desafio_transportadora from "../../assets/img_projects/desafio_transportadora.png";
+import ia_utilizando_buscas from "../../assets/img_projects/ia_utilizando_buscas.png";
+import controle_financeiro from "../../assets/img_projects/controle_financeiro.png";
+import login_form from "../../assets/img_projects/login_form.png";
+import progresso_formulario from "../../assets/img_projects/progresso_formulario.png";
+
 const projetos = [
   {
-    title: "Projeto 1",
+    title: "Controle Financeiro",
     description:
-      "lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum ",
-    tecnologies: ["React", "Node", "MongoDB"],
-    img: "https://picsum.photos/200/300",
+      "Site para controle financeiro pessoal. Possui uma interface simples e intuitiva, separada por datas e categorias.",
+    tecnologies: ["ReactJS", "TypeScript"],
+    img: controle_financeiro,
     code: [
       {
-        github: "github.com",
-        deploy: "deploy.com",
+        github: "https://github.com/Gabriel-CR/financial_control",
+        deploy: "https://financial-control-psi.vercel.app/",
       },
     ],
   },
   {
-    title: "Projeto 1",
+    title: "Login Form",
     description:
-      "lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum ",
-    tecnologies: ["React", "Node", "MongoDB"],
-    img: "https://picsum.photos/200/300",
+      "Formulário de login com validação de email e senha. Simula uma requisição para uma API para validação dos dados.",
+    tecnologies: ["ReactJS", "API"],
+    img: login_form,
     code: [
       {
-        github: "github.com",
-        deploy: "deploy.com",
+        github: "https://github.com/Gabriel-CR/login_form",
+        deploy: "https://login-form-ebon-one.vercel.app/",
       },
     ],
   },
   {
-    title: "Projeto 1",
+    title: "Desafio Transportadora",
     description:
-      "lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsumlore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsumlore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsumlore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsumlore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum ",
-    tecnologies: ["React", "Node", "MongoDB"],
-    img: "https://picsum.photos/200/300",
+      "Interface para seleção de frete. Realização de cálculo de preço de forma dinâmica.",
+    tecnologies: ["Vue.JS", "styled-components", "API"],
+    img: desafio_transportadora,
     code: [
       {
-        github: "github.com",
-        deploy: "deploy.com",
+        github: "https://github.com/Gabriel-CR/desafio_transportadora",
+        deploy: false,
       },
     ],
   },
   {
-    title: "Projeto 1",
+    title: "IA Utilizando Buscas",
     description:
-      "lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum ",
-    tecnologies: ["React", "Node", "MongoDB"],
-    img: "https://picsum.photos/200/300",
+      "Projeto de Inteligência Artificial utilizando algoritmos de busca. Foram implementadas as buscas em largura, profundidade, gulosa e A*.",
+    tecnologies: ["Java", "AI", "Estrutura de Dados"],
+    img: ia_utilizando_buscas,
     code: [
       {
-        github: "github.com",
-        deploy: "deploy.com",
+        github: "https://github.com/Gabriel-CR/IABuscas",
+        deploy: false,
       },
     ],
   },
   {
-    title: "Projeto 1",
+    title: "Formulário com Marcador de Progresso",
     description:
-      "lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum ",
-    tecnologies: ["React", "Node", "MongoDB"],
-    img: "https://picsum.photos/200/300",
+      "Formulário com validação de dados e marcador de progresso. O formulário valida a tamanho do nome, usa regex para validar o email e habilita o botão de submit quando todos os campos estiverem preenchidos.",
+    tecnologies: ["ReactJS", "Form", "Validação", "Regex"],
+    img: progresso_formulario,
     code: [
       {
-        github: "github.com",
-        deploy: "deploy.com",
+        github: "https://github.com/Gabriel-CR/progress_form",
+        deploy: "https://progress-form.vercel.app/",
       },
     ],
   },

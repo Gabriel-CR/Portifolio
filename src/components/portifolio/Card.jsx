@@ -21,10 +21,12 @@ const Card = ({ title, description, tecnologies, img, code }) => {
             <img src={ghimg} alt="github link" />
             <p>Github</p>
           </a>
-          <a href={deploy} target="_blank">
-            <img src={embebed} alt="deploy link" />
-            <p>Deploy</p>
-          </a>
+          {deploy && (
+            <a href={deploy} target="_blank">
+              <img src={embebed} alt="deploy link" />
+              <p>Deploy</p>
+            </a>
+          )}
         </Links>
       ))}
     </Container>
