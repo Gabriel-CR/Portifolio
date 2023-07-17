@@ -15,7 +15,7 @@ const Home = () => {
         <h3>Desenvolvedor Junior</h3>
         <div>
           <a
-            href="https://www.linkedin.com/in/gabriel-castro-657b87208/"
+            href="https://www.linkedin.com/in/dev-gabriel-castro/"
             target="_blank"
           >
             <img src={linkedin} alt="linkedin contato" />
@@ -23,10 +23,7 @@ const Home = () => {
           <a href="https://github.com/Gabriel-CR" target="_blank">
             <img src={github} alt="github contato" />
           </a>
-          <a
-            href="mailto:cg.castrorodrigues@gmail.com?subject=teste%20email"
-            target="_blank"
-          >
+          <a href="mailto:cg.castrorodrigues@gmail.com" target="_blank">
             <img src={email} alt="email contato" />
           </a>
         </div>
