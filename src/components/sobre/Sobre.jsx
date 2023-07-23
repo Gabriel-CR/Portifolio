@@ -1,10 +1,13 @@
 import { Container, Abount } from "./style";
 import me from "../../assets/img/me.svg";
+import { Suspense } from "react";
 
 const Sobre = () => {
   return (
     <Container>
-      <img src={me} alt="foto" />
+      <Suspense fallback={<div>Carregando...</div>}>
+        <img src={me} alt="foto" />
+      </Suspense>
       <div>
         <h2>👋 Saudações!</h2>
         <h1>Carlos Gabriel de Castro Rodrigues</h1>
