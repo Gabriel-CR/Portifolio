@@ -114,4 +114,16 @@ export const Info = styled.div`
     "phone email";
   gap: 10%;
   width: 40%;
+
+  @media (max-width: 1190px) {
+    width: 70%;
+  }
+
+  @media (max-width: 850px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    width: 80%;
+  }
 `;

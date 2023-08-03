@@ -6,16 +6,17 @@ export const Projects = styled.div`
   gap: 2vw;
   justify-items: center;
 
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  @media screen and (max-width: 900px) {
+  @media (max-width: 1000px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     grid-template-columns: repeat(1, 1fr);
+    padding: 0 2rem;
   }
 `;
 
@@ -52,10 +53,45 @@ export const Container = styled.div`
   }
 `;
 
+export const CardContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  max-width: 100%;
+  min-height: fit-content;
+  border: 1px solid #7b4ae2;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+
+  & > h3 {
+    margin-bottom: 1rem;
+  }
+
+  & > p {
+    color: #ffffff9e;
+    min-height: 10vh;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    margin-bottom: 2rem;
+  }
+
+  & > img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+`;
+
 export const Title = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 0 20px;
 
   & > h2 {
     font-weight: 700;

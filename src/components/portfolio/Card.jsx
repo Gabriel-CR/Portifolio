@@ -1,10 +1,10 @@
-import { Tecnology, TecnologyContainer, Container, Links } from "./styles";
+import { Tecnology, TecnologyContainer, CardContainer, Links } from "./styles";
 import embebed from "../../assets/embebed.svg";
 import ghimg from "../../assets/github.svg";
 
 const Card = ({ title, description, tecnologies, img, code }) => {
   return (
-    <Container>
+    <CardContainer>
       <h3>{title}</h3>
       <p>{description}</p>
       <TecnologyContainer>
@@ -29,7 +29,7 @@ const Card = ({ title, description, tecnologies, img, code }) => {
           )}
         </Links>
       ))}
-    </Container>
+    </CardContainer>
   );
 };
 

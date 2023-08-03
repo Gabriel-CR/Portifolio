@@ -7,10 +7,6 @@ export const Container = styled.div`
   gap: 100px;
   height: 82vh;
 
-  /* & {
-    border: 1px solid red;
-  } */
-
   & > img {
     width: 30%;
   }
@@ -46,12 +42,36 @@ export const Container = styled.div`
     flex-direction: column;
     gap: 5px;
   }
+
+  @media (max-width: 750px) {
+    flex-direction: column;
+    height: 90%;
+    gap: 0;
+    padding: 0 20px;
+
+    & > img {
+      width: 35%;
+    }
+
+    & > div {
+      width: 100%;
+      gap: 5px;
+    }
+
+    & > div > h1 {
+      font-size: 32px;
+      line-height: 37px;
+      margin-bottom: 16px;
+    }
+
+    & > div > h2 {
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
+  }
 `;
 
 export const Abount = styled.div`
-  * {
-    /* border: 1px solid red; */
-  }
   & > p {
     margin-bottom: 0.7vh;
   }

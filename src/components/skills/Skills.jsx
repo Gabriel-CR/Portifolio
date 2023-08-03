@@ -103,7 +103,7 @@ const Skills = () => {
       <ContainerImg>
         <h3>Techs que uso no dia a dia</h3>
         <Images>
-          {images.map(({ img, alt, description }) => (
+          {images.map(({ img, alt, description }, key) => (
             <SkillImg img={img} alt={alt} description={description} />
           ))}
         </Images>

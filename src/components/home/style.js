@@ -6,6 +6,11 @@ export const Container = styled.div`
   justify-content: space-between;
   padding: 0 20px;
   height: 82vh;
+
+  @media (max-width: 750px) {
+    flex-direction: column;
+    height: 100%;
+  }
 `;
 
 export const Image = styled.div`
@@ -17,6 +22,11 @@ export const Image = styled.div`
   & > img {
     width: 95%;
     height: 95%;
+  }
+
+  @media (max-width: 750px) {
+    width: 50%;
+    height: 50%;
   }
 `;
 
@@ -68,6 +78,32 @@ export const Info = styled.div`
       }
     }
   }
+
+  @media (max-width: 750px) {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    & > h1 {
+      font-size: 32px;
+      line-height: 37px;
+    }
+
+    & > h2 {
+      font-size: 16px;
+    }
+
+    & > h3 {
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    & > div {
+      gap: 8px;
+    }
+  }
 `;
 
 export const Contato = styled.a`
@@ -91,5 +127,11 @@ export const Contato = styled.a`
 
   &:hover {
     border: 1px solid rgba(123, 74, 226, 1);
+  }
+
+  @media (max-width: 750px) {
+    width: 50%;
+    height: 44px;
+    padding: 14px;
   }
 `;
