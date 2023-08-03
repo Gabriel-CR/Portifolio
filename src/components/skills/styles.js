@@ -99,13 +99,21 @@ export const Title = styled.div`
     font-weight: 800;
     font-size: 48px;
     line-height: 56px;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
   }
+
+  /* @media (max-width: 1024px) {
+    & > h1 {
+      font-size: 22px;
+      line-height: 40px;
+    }
+  } */
 
   @media (max-width: 768px) {
     & > h1 {
-      font-size: 32px;
+      font-size: 4vh;
       line-height: 40px;
+      text-align: center;
     }
   }
 `;

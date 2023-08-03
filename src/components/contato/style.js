@@ -34,6 +34,14 @@ export const Title = styled.div`
     line-height: 56px;
     margin-bottom: 24px;
   }
+
+  @media (max-width: 768px) {
+    & > h1 {
+      font-size: 32px;
+      line-height: 40px;
+      text-align: center;
+    }
+  }
 `;
 
 export const Wpp = styled.a`
